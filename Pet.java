@@ -36,7 +36,7 @@ public abstract class Pet {
     public int getPainLevel(){
         return painLevel;
     }
-    public abstract void treat();
+    public abstract int treat();
 
     public void speak(){
         if(painLevel > 5) {
